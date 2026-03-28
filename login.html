@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HTML</title>
+    <link rel="stylesheet" href="mdbootstrap/css/mdb.min.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class="text-center my-5">Login Page</h1>
+
+        <form id="loginForm">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="loginEmail" class="form-control" />
+              <label class="form-label" for="loginEmail">Email address</label>
+            </div>
+          
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="password" id="loginPassword" class="form-control" />
+              <label class="form-label" for="loginPassword">Password</label>
+            </div>
+          
+          
+            <!-- Submit button -->
+            <button id="loginBtn" type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          
+            <p class="text-center text-danger" id="message"></p>
+       
+          </form>
+    </div>
+
+
+    
+
+    <script src="mdbootstrap/js/mdb.umd.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
