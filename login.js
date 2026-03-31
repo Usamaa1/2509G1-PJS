@@ -1,3 +1,5 @@
+
+
 let loginBtn = document.getElementById('loginBtn');
 let message = document.getElementById('message');
 
@@ -28,6 +30,8 @@ loginBtn.addEventListener('click',()=>{
             // message.innerText = 'Login Successfull!'
 
             location.href = 'home.html'
+
+            sessionStorage.setItem('loginUser',JSON.stringify(foundUser));
 
 
         }

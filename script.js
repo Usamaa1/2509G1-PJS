@@ -1,3 +1,6 @@
+
+
+
 // button selection
 let signupBtn = document.getElementById("signupBtn");
 let alertMessage = document.getElementById('alertMessage');

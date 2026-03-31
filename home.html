@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="mdbootstrap/css/mdb.min.css">
+    <script>
+
+        const isUserLogin = sessionStorage.getItem('loginUser');
+
+        if(!isUserLogin){
+            location.href = 'login.html'
+        }
+
+    </script>
 </head>
 <body>
     <h1>Home Page</h1>
 
 
 
+    <button class="btn btn-danger" onclick="sessionStorage.removeItem('loginUser'); location.href='login.html'">Logout</button>
 
 
 
     
      <script src="mdbootstrap/js/mdb.umd.min.js"></script>
-    <script src="script.js"></script>
+ 
 </body>
 </html>
