@@ -26,12 +26,6 @@ submit.addEventListener('submit', async (e)=>{
 
 
 
-
-
-
-
-
-
 })
 
 
