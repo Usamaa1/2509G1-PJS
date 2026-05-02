@@ -274,8 +274,36 @@
 
 // ************* spread operators *************
 
+// ['Haris','Arif','Owais','Irtiza','Faiq']
+// let employeeNames = ['Asfar','Ali','Zahid','Zeeshan','Ajmal'];
+// let softwareEngineers = [...employeeNames];
+
+// console.log(employeeNames)
+// console.log(softwareEngineers)
+
+// softwareEngineers[1] = 'Zafar'
+
+// console.log(softwareEngineers)
+
+// console.log(employeeNames)
+
+// spread operator
+// console.log(...softwareEngineers)
 
 
+// console.log(employeeNames[0]);
+// console.log(employeeNames[1]);
+// console.log(employeeNames[3]);
+
+//rest operator
+
+// let [a,b,c,...remainingNames] = employeeNames; 
+
+
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(remainingNames)
 
 
 
